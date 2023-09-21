@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 const List = () => {
     const [states, setStates] = useState([]);
-    const [stateId, setStateId] = useState('');
+    const [stateId, setStateId] = useState(1);
     const [infoDetails, setInfoDetails] = useInfo();
     const navigate = useNavigate();
 
